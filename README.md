@@ -1,9 +1,9 @@
 # tfrs-functional-test-runner
 
-##Purpose
+## Purpose
 
-This project was created to demonstrate how to configure and run navUnit () funcational 
-test framework from within a Jenkins Pipeline File via Gradle
+This project was created to demonstrate how to configure and run navUnit (https://github.com/dmarley/navUnit) funcational 
+test framework from within a Jenkins Pipeline File via Gradle Build Script
 
 ***Example:***
 ````java
@@ -55,3 +55,6 @@ The ***Jenkinsfile***, which is checked into source control provides a number of
 
 <span style="color:green">Step 3.</span> Enter the Source Code Repository where the 'Jenkinsfile' is located
 ![Enter Git Repository](documentation/images/sourceCode.png)
+
+***Result:***
+![Successful Pipeline Run](documentation/images/pipeline_run.png)
