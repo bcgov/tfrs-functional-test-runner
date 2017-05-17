@@ -2,14 +2,14 @@
 
 ## Purpose
 
-This project was created to demonstrate how to configure and run navUnit (https://github.com/dmarley/navUnit) funcational 
+This project was created to demonstrate how to configure and run navUnit (https://github.com/bcgov/navUnit) funcational 
 test framework from within a Jenkins Pipeline File via Gradle Build Script
 
 ***Example:***
 ````java
 node('maven') {
    stage('checkout navUnit')
-   git url: 'https://github.com/dmarley/navUnit.git'
+   git url: 'https://github.com/bcgov/navUnit.git'
 
    stage('execute navUnit')
    sh './gradlew phantomJsTest'
